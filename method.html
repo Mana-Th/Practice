@@ -9,58 +9,10 @@
     <script>
         'use strict';
 
-        // const addTwoNum = (x,y) => {
-        //     return x + y;
-        // }
-        // console.log(addTwoNum(3,4));
-
-        // class Cluculator {
-        //     constructor(x,y){
-        //         this.x =x;
-        //         this.y =y;
-        //     }
-        //     addTwoNum(){
-        //         return this.x + this.y;
-        //     }
-        // }
-        // const calcA = new Cluculator(3,4);
-        // const calcB = new Cluculator(1,1);
-        // console.log(calcA.addTwoNum());
-        // console.log(calcB.addTwoNum());
-
-        // クラスの継承
-        // class SuperNaming {
-        //     constructor(){
-        //         this.name ="田中";
-        //     }
-        //     outputName(){
-        //         return this.name;
-        //     }
-        // }
-        // class SubGreeting extends SuperNaming{
-        //     outputName(){
-        //         return super.outputName() +"太郎";
-        //     }
-        //     outputHello(){
-        //         return "Hello!!";
-        //     }
-        // }
-        // const Greeting = new SubGreeting;
-        // console.log(Greeting.outputHello()+Greeting.outputName());
-
-        //練習問題
-        class Naming {
-            constructor(name){
-                this.name = ["山田","田中","林",name]
-            }
-            result(i){
-                return this.name[i]
-            }
+        const addTwoNum = (x,y) => {
+            return x + y ;
         }
-        const outputName = new Naming("佐藤");
-        for(let i = 0; i < outputName; i++){
-            console.log(outputName.result(i));
-        }
+        console.log(addTwoNum(3,4));
     </script>
     
 </body>
